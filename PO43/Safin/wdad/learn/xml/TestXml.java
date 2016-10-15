@@ -1,24 +1,14 @@
 package PO43.Safin.wdad.learn.xml;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Objects;
+import org.xml.sax.SAXException;
 
-class TestXml{
+import java.io.IOException;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
+import java.io.IOException;
 
-    public static void main(String[] args){
-        try{
-            System.out.println("Test");
-        XmlTask test = new XmlTask();
-        //String date = "2012.03.23";
-           // Calendar calendar =Calendar.getInstance();
-           // DateFormat sdf = new SimpleDateFormat("yyyy.MM.dd");
-
-
-        }
-        catch (Exception e){e.printStackTrace();}
+public class TestXml{
+    public static void main(String[] args) throws IOException,SAXException,ParserConfigurationException,TransformerException {
+XmlTask
     }
 }
