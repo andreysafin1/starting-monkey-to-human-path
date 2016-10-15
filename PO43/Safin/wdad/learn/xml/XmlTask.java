@@ -1,26 +1,20 @@
 package PO43.Safin.wdad.learn.xml;
 
 import java.awt.print.Book;
-import java.io.FileOutputStream;
 import java.io.IOException;
 
-import javax.xml.parsers.DocumentBuilder;
+
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 
-import com.sun.org.apache.bcel.internal.classfile.*;
-import com.sun.org.apache.bcel.internal.classfile.Node;
-import com.sun.org.apache.xerces.internal.impl.dv.xs.DayDV;
+
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
-import org.w3c.dom.ls.DOMImplementationLS;
-import org.w3c.dom.ls.LSOutput;
-import org.w3c.dom.ls.LSSerializer;
+
 
 import java.io.File;
 import java.io.Reader;
-import java.util.List;
 
 
 public class XmlTask {
@@ -35,6 +29,16 @@ public class XmlTask {
         String tedReader = "reader";
         String attrFirstName = "firstname";
         String attrSecondName = "secondname";
+        NodeList reader = document.getElementsByTagName(tedReader);
+        Node node = null;
+        NamedNodeMap attributes;
+        for (int i = 0;i<reader.getLength();i++)
+        {
+            attributes = reader.item(i).getAttributes();
+            if (attributes.getNamedItem(attrFirstName).getNodeValue().equals(firstName) && attributes.getNamedItem(attrSecondName).getNodeValue().equals(secondName));
+            node = reader.item(i);
+            return node;
+        }
         return null;
     }
 
