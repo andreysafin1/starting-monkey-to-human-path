@@ -9,6 +9,6 @@ import java.io.IOException;
 
 public class TestXml{
     public static void main(String[] args) throws IOException,SAXException,ParserConfigurationException,TransformerException {
-XmlTask
+XmlTask List = new XmlTask();
     }
 }
