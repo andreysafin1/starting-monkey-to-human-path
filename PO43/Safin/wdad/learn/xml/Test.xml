@@ -1,80 +1,138 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE library SYSTEM "library.dtd">
 <library>
 <reader firstname="Антон" secondname="Городецкий">
     <book>
-        <genre value="novel"> </genre>
+        <author>
+            <firstname></firstname>
+            <secondname></secondname>
+        </author>
+        <name></name>
+        <printyear></printyear>
+        <genre value="novel"/>
     </book>
-    <takedate day="23" month="03" year="1987">
-    </takedate>
+    <takedate day="23" month="03" year="1987"/>
 </reader>
     <reader firstname="Игорь" secondname="Лиманов">
         <book>
-            <genre value="ode"> </genre>
+            <author>
+                <firstname></firstname>
+                <secondname></secondname>
+            </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="ode"/>
         </book>
-        <takedate day="21" month="02" year="1997">
-        </takedate>
+        <takedate day="21" month="02" year="1997"/>
     </reader>
     <reader firstname="Владимир" secondname="Шалимов">
         <book>
-            <genre value="opus"> </genre>
+            <author>
+                <firstname></firstname>
+                <secondname></secondname>
+            </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="opus"/>
         </book>
-        <takedate day="3" month="09" year="2007">
-        </takedate>
+        <takedate day="3" month="09" year="2007"/>
     </reader>
     <reader firstname="Дмитрий" secondname="Быстров">
         <book>
-            <genre value="article"> </genre>
+            <author>
+                <firstname></firstname>
+                <secondname></secondname>
+            </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="article"/>
         </book>
-        <takedate day="12" month="02" year="1997">
-        </takedate>
+        <takedate day="12" month="02" year="1997"/>
     </reader>
     <reader firstname="Василий" secondname="Скряжин">
         <book>
-            <genre value="story"> </genre>
+            <author>
+                <firstname></firstname>
+                <secondname></secondname>
+            </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="story"/>
         </book>
-        <takedate day="11" month="12" year="1977">
-        </takedate>
+        <takedate day="11" month="12" year="1977"/>
     </reader>
     <reader firstname="Магомед" secondname="Гашек">
         <book>
-            <genre value="play"> </genre>
+            <author>
+                <firstname></firstname>
+                <secondname></secondname>
+            </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="play"/>
         </book>
-        <takedate day="13" month="11" year="2001">
-        </takedate>
+        <takedate day="13" month="11" year="2001"/>
+
     </reader>
     <reader firstname="Поль" secondname="Каше">
         <book>
-            <genre value="sketch"> </genre>
+            <author>
+            <firstname></firstname>
+            <secondname></secondname>
+        </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="sketch"/>
         </book>
-        <takedate day="1" month="01" year="2013">
-        </takedate>
+        <takedate day="1" month="01" year="2013"/>
+
     </reader>
     <reader firstname="Николай" secondname="Иванов">
         <book>
-            <genre value="epopee"> </genre>
+            <author>
+            <firstname></firstname>
+            <secondname></secondname>
+        </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="epopee"/>
         </book>
-        <takedate day="21" month="02" year="1998">
-        </takedate>
+        <takedate day="21" month="02" year="1998"/>
     </reader>
     <reader firstname="Антон" secondname="Любимов">
         <book>
-            <genre value="epos"> </genre>
+            <author>
+            <firstname></firstname>
+            <secondname></secondname>
+        </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="epos"/>
         </book>
-        <takedate day="16" month="06" year="1999">
-        </takedate>
+        <takedate day="16" month="06" year="1999"/>
     </reader>
     <reader firstname="Семен" secondname="Лоськов">
         <book>
-            <genre value="essay"> </genre>
+            <author>
+                <firstname></firstname>
+                <secondname></secondname>
+            </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="essay"/>
         </book>
-        <takedate day="12" month="08" year="2009">
-        </takedate>
+        <takedate day="12" month="08" year="2009"/>
     </reader>
     <reader firstname="Андрей" secondname="Степанцов">
         <book>
-            <genre value="other"> </genre>
+            <author>
+                <firstname></firstname>
+                <secondname></secondname>
+            </author>
+            <name></name>
+            <printyear></printyear>
+            <genre value="other"/>
         </book>
-        <takedate day="2" month="02" year="1977">
-        </takedate>
+        <takedate day="2" month="02" year="1977"/>
     </reader>
 </library>
