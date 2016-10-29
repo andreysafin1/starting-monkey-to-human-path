@@ -16,7 +16,7 @@
         <!ATTLIST genre value ( novel | ode |
                 opus | article | story |
                 play | sketch | epopee |
-                epos | essay | other) other>
+                epos | essay | other) "other">
         <!ATTLIST takedate
                 day CDATA #REQUIRED
                 month CDATA #REQUIRED

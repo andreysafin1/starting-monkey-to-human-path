@@ -16,14 +16,11 @@ public class TestXml{
     public static void main(String[] args) throws IOException,SAXException,ParserConfigurationException,TransformerException {
         {
             XmlTask List = new XmlTask();
-
             //Reader reader = new FileReader("C:/JAVA/starting-monkey-to-human-path-master/starting-monkey-to-human-path/PO43/Safin/wdad/learn/xml/Test.xml");
             //Book book = new Book();
            // List.nehligentReaders();
 
             System.out.println(List.nehligentReaders());
-
-           // List.removeBook(reader,book);
         }
     }
 }
