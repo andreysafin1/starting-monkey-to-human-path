@@ -4,8 +4,8 @@
 <reader firstname="Антон" secondname="Городецкий">
     <book>
         <author>
-            <firstname/>
-            <secondname/>
+            <firstname>"Антон"</firstname>
+            <secondname>"Городецкий"</secondname>
         </author>
         <printyear/>
         <genre value="novel"/>
@@ -15,10 +15,10 @@
     <reader firstname="Игорь" secondname="Лиманов">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="ode"/>
         </book>
         <takedate day="21" month="02" year="1997"/>
@@ -26,10 +26,10 @@
     <reader firstname="Владимир" secondname="Шалимов">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="opus"/>
         </book>
         <takedate day="3" month="09" year="2007"/>
@@ -38,10 +38,10 @@
     <reader firstname="Дмитрий" secondname="Быстров">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="article"/>
         </book>
         <takedate day="12" month="02" year="1997"/>
@@ -49,10 +49,10 @@
     <reader firstname="Василий" secondname="Скряжин">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="story"/>
         </book>
         <takedate day="11" month="12" year="1977"/>
@@ -60,10 +60,10 @@
     <reader firstname="Магомед" secondname="Гашек">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="play"/>
         </book>
         <takedate day="13" month="11" year="2001"/>
@@ -71,10 +71,10 @@
     <reader firstname="Поль" secondname="Каше">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="sketch"/>
         </book>
         <takedate day="1" month="01" year="2013"/>
@@ -82,10 +82,10 @@
     <reader firstname="Николай" secondname="Иванов">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="epopee"/>
         </book>
         <takedate day="21" month="02" year="1998"/>
@@ -93,10 +93,10 @@
     <reader firstname="Антон" secondname="Любимов">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="epos"/>
         </book>
         <takedate day="16" month="06" year="1999"/>
@@ -104,10 +104,10 @@
     <reader firstname="Семен" secondname="Лоськов">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="essay"/>
         </book>
         <takedate day="12" month="08" year="2009"/>
@@ -115,10 +115,10 @@
     <reader firstname="Андрей" secondname="Степанцов">
         <book>
             <author>
-                <firstname></firstname>
-                <secondname></secondname>
+                <firstname>"Антон"</firstname>
+                <secondname>"Городецкий"</secondname>
             </author>
-            <printyear></printyear>
+            <printyear>10.10.2014</printyear>
             <genre value="other"/>
         </book>
         <takedate day="2" month="02" year="1977"/>
