@@ -15,45 +15,59 @@ import org.w3c.dom.ls.LSSerializer;
 import org.xml.sax.SAXException;
 
 import java.io.File;
+import java.io.Reader;
 import java.util.*;
 
 
 public class XmlTask {
-    private Document document1;
+    private Document document;
     private String path = "C:/Users/Андрей/IdeaProjects/starting-monkey-to-human-path-master/starting-monkey-to-human-path/PO43/Safin/wdad/learn/xml/Test.xml";
 
     public XmlTask() throws IOException, ParserConfigurationException, SAXException {
-        generateDoc();
+        document = createDocument();
     }
-    private void generateDoc() throws IOException,ParserConfigurationException,SAXException{
-        File fXmlFile = new File(path);
-        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-        document1 = dBuilder.parse(fXmlFile);
+    private Document createDocument() throws ParserConfigurationException, IOException, SAXException {//метод, который возвращает документ
+        File file = new File(path);//обьявляем файл, в качестве входного параметра скармливаем ему путь к файлу
+        Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file);//парсим документ, то есть получаем из него xml документ, в котором уже можем работать по нодам
+        return document;//возвращаем документ
     }
 
     private void updateDoc() throws IOException {
         DOMImplementationLS domImplementationLS =
-                (DOMImplementationLS) document1.getImplementation().getFeature("LS", "3.0");
+                (DOMImplementationLS) document.getImplementation().getFeature("LS", "3.0");
         LSOutput lsOutput = domImplementationLS.createLSOutput();
         FileOutputStream outputStream = new FileOutputStream(path);
         lsOutput.setByteStream(outputStream);
         LSSerializer lsSerializer = domImplementationLS.createLSSerializer();
-        lsSerializer.write(document1, lsOutput);
+        lsSerializer.write(document, lsOutput);
         outputStream.close();
     }
 
 
-    /*public void removeBook (Person reader, Book book) throws IOException {
-        NodeList readerList = document1.getElementsByTagName("reader");
-        for (int i = 0; i < readerList.getLength(); i++) {
-            NamedNodeMap readerAttribut = readerList.item(i).getAttributes();
-            if ((readerAttribut.item(0).getNodeValue().equals(readerList))) {
-readerList.item(i).getParentNode().removeChild(readerList.item(i));
-                i--;
+   /* public List<Reader> nehligentReaders() throws ParserConfigurationException,SAXException,IOException
+    {
+        List<Reader> readers = new ArrayList<Reader>();
+        Reader reader = null;
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+      //  DocumentBuilder builder = builder.parse(new File("Test.xml"));
+        document.getDocumentElement().normalize();;
+        NodeList nList = document.getElementsByTagName("reader");
+        for (int temp = 0;temp<nList.getLength();temp++){
+            Node node = nList.item(temp);
+            {
+                if (node.getNodeType() == Node.ATTRIBUTE_NODE)
+                {
+                    Element element = (Element) node;
+                    String firstname = element.getElementsByTagName("firstname").item(0).getChildNodes().item(0).getNodeValue();
+                    String secondname = element.getElementsByTagName("secondname").item(0).getChildNodes().item(0).getNodeName();
+                    readers.add(new );
+                }
+                for (Reader reader1:readers)
+                 //   (System.out.println(reader1.getFirstName););
             }
         }
-        updateDoc();*/
+    }*/
+
     }
 
 

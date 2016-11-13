@@ -1,5 +1,10 @@
 package PO43.Safin.wdad.learn.xml;
 
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -9,16 +14,10 @@ import java.util.Objects;
 
 class TestXml{
 
-    public static void main(String[] args){
-        try{
-            System.out.println("Test");
-        XmlTask test = new XmlTask();
-        //String date = "2012.03.23";
-           // Calendar calendar =Calendar.getInstance();
-           // DateFormat sdf = new SimpleDateFormat("yyyy.MM.dd");
+    public static void main(String[] args) throws IOException,SAXException,ParserConfigurationException,TransformerException{
 
-
-        }
-        catch (Exception e){e.printStackTrace();}
+        XmlTask List = new XmlTask();
+     //   List.nehligentReaders();
+        System.out.println();
     }
 }
