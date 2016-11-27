@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file:///production/starting-monkey-to-human-path" />
+    <output-test url="file:///test/starting-monkey-to-human-path" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />

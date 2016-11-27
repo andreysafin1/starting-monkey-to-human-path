@@ -1,6 +1,5 @@
 package PO43.Safin.wdad.learn.xml;
 
-
 import java.io.Serializable;
 
 public class Reader  implements Serializable{

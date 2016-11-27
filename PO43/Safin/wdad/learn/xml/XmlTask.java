@@ -48,14 +48,14 @@ public class XmlTask {
         writeDoc();
     }*/
 
-   public List<Reader> nehligentReaders() throws ParserConfigurationException,SAXException,IOException
+   /*public List<Reader> nehligentReaders() throws ParserConfigurationException,SAXException,IOException
    {
        List<Reader> readers = new ArrayList<Reader>();
-       //Reader reader = null;
-       //DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-       //DocumentBuilder builder = factory.newDocumentBuilder();
-       //Document document  = builder.parse(new File("D:/starting-monkey-to-human-path/PO43/Safin/wdad/learn/xml/Test.xml"));
-       //document.getDocumentElement().normalize();
+       Reader reader = null;
+       DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+       DocumentBuilder builder = factory.newDocumentBuilder();
+       Document document  = builder.parse(new File("D:/starting-monkey-to-human-path/PO43/Safin/wdad/learn/xml/Test.xml"));
+       document.getDocumentElement().normalize();
        NodeList nList = document.getElementsByTagName("reader");
        for (int temp = 0;temp < nList.getLength();temp++){
            Node node = nList.item(temp);
@@ -67,16 +67,10 @@ public class XmlTask {
                    String secondname = elem.getElementsByTagName("secondname").item(0).getChildNodes().item(0).getNodeName();
                    readers.add(new PO43.Safin.wdad.learn.xml.Reader(firstname,secondname));
                }
-               for (Reader red:readers
-                       )
-                   System.out.println(red.getFirstName());
-               for (Reader red:readers
-                       ) {System.out.println(red.getSecondName());
-               }
            }
-       }
-       return readers;
    }
+return readers;
+   }*/
 
 
 
