@@ -20,7 +20,7 @@ public class TestXml{
             //Book book = new Book();
            // List.nehligentReaders();
 
-           // System.out.println(List.nehligentReaders());
+            System.out.println(List.nehligentReaders());
         }
     }
 }
