@@ -1,8 +1,5 @@
 package PO43.Safin.wdad.learn.xml;
 
-/**
- * Created by Andrei on 18.10.2016.
- */
 
 import java.io.Serializable;
 
