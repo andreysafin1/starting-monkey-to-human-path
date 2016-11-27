@@ -44,13 +44,13 @@ public class XmlTask {
     }
 
 
-    public List<Reader> nehligentReaders() throws ParserConfigurationException,SAXException,IOException
+    /*public List<Reader> nehligentReaders() throws ParserConfigurationException,SAXException,IOException
     {
         List<Reader> readers = new ArrayList<Reader>();
         Reader reader = null;
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        DocumentBuilder builder = builder.parse(new File("C:/Users/Andrei/IdeaProjects/starting-monkey-to-human-path/PO43/Safin/wdad/learn/xml/Test.xml"));
+        //DocumentBuilder builder = builder.parse(new File("C:/Users/Andrei/IdeaProjects/starting-monkey-to-human-path/PO43/Safin/wdad/learn/xml/Test.xml"));
         document.getDocumentElement().normalize();;
         NodeList nList = document.getElementsByTagName("reader");
         for (int temp = 0;temp<nList.getLength();temp++){
@@ -67,7 +67,7 @@ public class XmlTask {
                  //   (System.out.println(reader1.getFirstName););
             }
         }
-    }
+    }*/
 
     }
 
